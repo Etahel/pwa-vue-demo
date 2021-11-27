@@ -1,17 +1,23 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="d-flex">
+          <item-list></item-list>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import ItemList from "./components/ItemList";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ItemList
+  },
+  data() {
+    return {
+    };
+  },
+  watch: {
   }
 }
 </script>

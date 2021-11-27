@@ -15,10 +15,13 @@ npm run serve
 npm run build
 ```
 
+### serve for production (after install->build)
+```
+serve ./dist
+```
+
 ### Lints and fixes files
 ```
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
