@@ -15,13 +15,7 @@ npm run serve
 npm run build
 ```
 
-### serve for production (after install->build)
+### serve for production (after install->build) on localhost:3000
 ```
 serve ./dist
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-

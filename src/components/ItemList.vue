@@ -70,7 +70,6 @@
       deleteTodo(todo) {
         const todoIndex = this.todos.indexOf(todo);
         this.todos.splice(todoIndex, 1);
-        console.log(todo)
       },
       completeTodo(todo) {
         this.todos.find(element => _.isEqual(element, todo)).done = true
@@ -82,7 +81,6 @@
           deadline: this.newItem.deadline,
           done: this.newItem.done,
         }
-        console.log(newToDo)
         this.todos.push(newToDo)
       },
 
